@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--azul-mais-escuro-fundo);
+    color: rgb(214, 214, 214);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --azul-mais-escuro-fundo: #0d1b2a;
+    --azul-meio-claro-fundo: #415a77;
+    --azul-escuro-fundo: #1b263b;
+}
+
+header {
+    background-color: var(--azul-mais-escuro-fundo);
+    padding: 30px;
+}
+
+header > img {
+    margin: auto;
+    width: 30rem;
+} 
+
+main {
+    background-color: var(--azul-mais-escuro-fundo);
+    border-top: 2px solid var(--azul-escuro-fundo);
+    width: 80rem;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+main > h1 {
+    font-size: 4.2rem;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.251);
+}
+
+main > p {
+    padding: 20px;
+    width: 60rem;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+main div.img-harry-potter {
+    padding: 20px;
+    border-top: 2px solid var(--azul-escuro-fundo);
+    border-bottom: 2px solid var(--azul-escuro-fundo);
+    width: 75rem;
+    margin: auto;
+}
+
+main div.img-harry-potter > img {
+    width: 60rem;
+    border-radius: 20px;
+    margin: auto;
+    
+}
+
+section.hogwarts {
+    text-align: center;
+    height: 50rem;
+    padding: 20px;
+    margin: 30px 100px;
+    background-image: url(../img/hogwarts-castelo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+
+section.hogwarts > h1 {
+    font-size: 3.2rem;
+    color:  rgba(214, 214, 214, 0.714);
+}
+
+section.houses {
+    padding: 20px 50px;
+    text-align: center;
+    margin: auto;
+}
+
+section.houses > h1 {
+    font-size: 3.2rem;
+    padding: 10px;
+}
+
+section.houses > p {
+    font-size: 1.5rem;
+    width: 60rem;
+    margin: auto;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--azul-escuro-fundo);
+}
+
+section.houses > img {
+    width: 60rem;
+    margin: auto;
+    padding: 20px;
+}
+
+section.houses > div.info-mobile {
+    display: none;
+}
+
+section.houses > div.hero-houses {
+    width: 115rem;
+    height: 35rem;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    padding: 20px;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 20px;
+}
+
+section.houses > div#gryffindor {
+    background-image: url(../img/gryffindor.jpg);
+}
+
+section.houses > div#slytherin {
+    background-image: url(../img/slytherin.jpg);
+    
+}
+
+section.houses > div#hufflepuff {
+    background-image: url(../img/hufflepuff.jpg);
+    color: rgb(255, 255, 255);
+}
+
+section.houses > div#ravenclaw {
+    background-image: url(../img/ravenclaw.jpg);
+    margin-bottom: 185px;
+}
+
+section.houses > div.hero-souses > div.info {
+    width: 50rem;
+    padding: 20px;
+    display: flex;
+    height: 100%;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.houses > div.hero-houses > div.info > h2 {
+    font-size: 3.2rem;
+    width: 24rem;
+    text-align: center;
+}
+
+section.houses > div.hero-houses > div.info > p {
+    font-size: 1.5rem;
+    text-align: left;
+    width: 30rem;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > div.redes-sociais {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer > h3 {
+    font-size: 1.8rem;
+}
+
+footer div.redes-sociais a > img {
+    width: 4.2rem;
+}
+

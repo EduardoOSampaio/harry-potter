@@ -1,0 +1,142 @@
+@media (max-width: 1200px) {
+    section.houses > div.hero-houses {
+        max-width: 90rem;
+    }
+}
+
+@media (max-width: 1150px) {
+    section.hogwarts {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+
+    html {
+        font-size: 58%;
+    }
+
+    main {
+        max-width: 60rem;
+    }
+
+    main div.img-harry-potter  {
+        max-width: 35rem;
+    }
+
+    main div.img-harry-potter > img {
+        max-width: 35rem;
+    }
+
+    section.houses > img {
+        max-width: 45rem;
+    }
+
+    section.houses > div.hero-houses {
+        max-width: 65rem;
+        margin-bottom: 275px;
+    }
+
+
+
+    section.hogwarts {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    html {
+        font-size: 60%;
+    }
+
+    header {
+        margin: auto;
+        padding: 10px;
+    }
+
+    header > img {
+        max-width: 20rem;
+    }
+
+    main {
+        max-width: 55rem;
+    }
+
+    main > p {
+        max-width: 50rem;
+    }
+
+    main div.img-harry-potter  {
+        max-width: 50rem;
+    }
+
+    main div.img-harry-potter > img {
+        max-width: 35rem;
+    }
+
+    section.hogwarts {
+        display: none;
+    }
+
+    section.houses > p {
+        max-width: 50rem;
+    }
+
+    section.houses > img {
+        max-width: 35rem;
+    }
+}
+
+@media (max-width: 450px) {
+    main {
+        max-width: 30rem;
+    }
+
+    main > p {
+        max-width: 25rem;
+    }
+
+    main > div.img-harry-potter {
+        max-width: 25rem;
+    }
+
+    main > div.img-harry-potter > img {
+        max-width: 20rem;
+    }
+
+    section.houses > p {
+        max-width: 20rem;
+    }
+
+    section.houses > img {
+        max-width: 20rem;
+    }
+
+    section.houses > div.hero-houses {
+        max-width: 30rem;
+        margin-bottom: 2rem;
+    }
+
+    section.houses > div.hero-houses > div.info {
+        display: none;
+    }
+
+    section.houses > div.info-mobile {
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    section.houses > div#ravenclaw {
+        margin-bottom: 30px;
+    }
+
+
+    footer > h3 {
+        font-size: 1.4rem;
+    }
+
+    footer div.redes-sociais a > img {
+        width: 3.2rem;
+    }
+}
