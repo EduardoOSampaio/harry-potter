@@ -149,14 +149,13 @@ section.houses > div#ravenclaw {
     margin-bottom: 185px;
 }
 
-section.houses > div.hero-souses > div.info {
+section.houses > div.hero-houses > div.info {
     width: 50rem;
     padding: 20px;
     display: flex;
     height: 100%;
-    align-items: start;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 section.houses > div.hero-houses > div.info > h2 {
@@ -170,7 +169,7 @@ section.houses > div.hero-houses > div.info > p {
     text-align: left;
     width: 30rem;
     font-weight: 500;
-    line-height: 1.2em;
+    line-height: 1.3;
     letter-spacing: 0.02em;
     font-family: 'Times New Roman', Times, serif;
 }
